@@ -1,12 +1,15 @@
 /*
- * main.cpp
+ * functions.cpp
  *
  *  Created on: 17.09.2015
  *      Author: Hamza Khan Niazi
  */
 
-#include <iostream>
 
+
+
+#include <iostream>
+#include "functions.hpp"
 
 void printStars(int n){
 	for(int i = 0; i < n; i++)
@@ -20,11 +23,3 @@ void printFigure(int n){
 	for(int i = 2; i <= n; i++)
 		printStars(i);
 }
-
-
-int main() {
-	printFigure(9);
-}
-
-
-
