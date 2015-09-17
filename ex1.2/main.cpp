@@ -5,11 +5,14 @@
  *      Author: Hamza Khan Niazi
  */
 
+#include <iostream>
 #include "functions.hpp"
 
+using namespace rofl;
+
 int main() {
-	printFigure(4);
+	int zahl;
+	std::cin >> zahl;
+	rofl::printFigure(zahl);
+	//printChars(zahl);
 }
-
-
-
